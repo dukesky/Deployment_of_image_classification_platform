@@ -33,4 +33,8 @@ To deploy the serverless framwork, we simply need type `sls deploy`
 After deploy,To test if model is worked properly in AWS, we can use invoke function to test input and output by typing:   \
 `sls invoke --function function-you-want-to-test --path data-you-want-to-input --log`
 
+
+### NOT FINISHED YET
+currently, this model is not finished yet, I still have some problem with lambda upload size, because tensorflow plus keras are larger than lambda capacity(200M) and tem/ folder capacity(500M), I'm trying to figure out how to upload these packages without fill all space
+
 I learned this project from [udemy](https://www.udemy.com/) course [Deploy Serverless Machine Learning Models to AWS Lambda](https://www.udemy.com/course/deploy-serverless-machine-learning-models-to-aws-lambda/)
