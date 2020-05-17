@@ -23,9 +23,10 @@ var/
 .vscode/
 .ipynb_checkpoints/
 node_modules/
-
+__pycache__/
 #
 original.jpg
 
 #
 tmp/
+.requirements.zip
